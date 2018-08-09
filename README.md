@@ -30,6 +30,7 @@ A working example of this app is shown in this gif:
 * Did we import and export our components correctly?
 * Did we pass down the *props* that we need?
 * How do we change state?
+* This app uses Semantic for styling - you will not need to worry about any errors here.
 
 ## Errors
 1. **App.js**:
