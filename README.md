@@ -39,8 +39,8 @@ A working example of this app is shown in this gif:
   * Form and Order components imported from incorrect path
 2. **Form.js**:
   * handleSubmit() and handleChange() should be arrow functions
-  * `event` argument not passed into handleSubmit()
-  * handleChange() passed down as `onChange` prop but used as `handleChange` in children components
+  * `event` argument not passed into handleSubmit() and handleChange()
+  * handleChange() passed down as `handleOnChange` prop but used as `handleChange` in children components
 3. **FillingForm.js**:
   * onChange should be `props.handleChange` instead of `this.props.handleChange`
 4. **ProteinForm.js**:
