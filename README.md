@@ -39,7 +39,7 @@ A working example of this app is shown in this gif:
   * State is set with `:` instead of `=`
   * Form and Order components imported from incorrect path
 2. **Form.js**:
-  * handleSubmit() and handleChange() should be arrow functions
+  * handleSubmit() and handleChange() should either be arrow functions or bind `this`
   * `event` argument not passed into handleSubmit() and handleChange()
   * handleChange() passed down as `handleOnChange` prop but used as `handleChange` in children components
 3. **FillingForm.js**:
