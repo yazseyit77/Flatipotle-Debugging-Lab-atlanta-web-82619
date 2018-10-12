@@ -16,16 +16,16 @@ class App extends Component {
 
   render() {
     const orders = this.state.orders.map( (order, idx) => {
-      return <Order key={idx} {...order} />
+      return <Order key={ idx } { ...order } />
     })
 
     return (
       <div className="App">
         <header className="App-header">
-          <img src={require('./images/logo.png')} className="App-logo" alt="logo" />
+          <img src={ require('./images/logo.png') } className="App-logo" alt="logo" />
         </header>
 
-        <Form addOrder={this.addOrder} />
+        <Form addOrder={ this.addOrder } />
 
         <div className="ui raised container segment">
           <h1 className="ui block header">All Orders</h1>
