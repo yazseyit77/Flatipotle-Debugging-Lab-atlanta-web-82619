@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './App.css'
 import Form from '../src/components/Form'
-import Order from './Order'
+import Order from '../src/components/Order'
 
 class App extends Component {
   state = {
