@@ -16,7 +16,7 @@ class App extends Component {
 
   render() {
     const orders = this.state.orders.map((order, idx) => {
-      <Order key={idx} {...order} />
+      return <Order key={idx} {...order} />
     })
 
     return (
